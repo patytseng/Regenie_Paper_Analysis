@@ -1,0 +1,17 @@
+#!/bin/sh
+
+# module loading
+module purge
+module load python/3.8.3
+
+# check directory
+pwd
+
+# Commands
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRScs/PRScs.py \
+    --ref_dir=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/ldblk_ukbb_eur \
+    --bim_prefix=/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune \
+    --sst_file=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_PRScs \
+    --n_gwas=460108 \
+    --out_dir=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS \
+    --chrom=${chr}

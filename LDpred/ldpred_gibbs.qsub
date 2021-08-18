@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=24:00:00
+#SBATCH --mem=240G
+#SBATCH --partition=highmem
+
+# module loading
+module purge
+module load python/3.8.3
+
+# current directory
+pwd
+
+# commands start
+
+ldpred gibbs \
+    --cf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.coordinated \
+    --ldr 250 \
+    --ldf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.ld \
+    --f 0.03 0.035 0.04 0.045 0.05 0.055 0.06 0.065 0.07 0.075 \
+    --N 488377 \
+    --n-iter 60 \
+    --n-burn-in 5 \
+    --hickle-ld \
+    --out exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.reweighted
+

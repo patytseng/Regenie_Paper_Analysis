@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --nodes=1                   ### Node count required for the job
+#SBATCH --ntasks=1                  ### Nuber of tasks to be launched per Node
+#SBATCH --cpus-per-task=20
+#SBATCH --time=7-00:00:00
+#SBATCH --mem=250G
+#SBATCH --partition=highmem
+
+# module loading
+module purge
+module load R
+
+# current directory
+pwd
+
+# commands start
+Rscript Prive_Example.r
