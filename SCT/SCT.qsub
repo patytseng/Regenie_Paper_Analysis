@@ -1,0 +1,48 @@
+#!/bin/sh
+
+# module management
+module purge
+module load R/4.0.0
+
+# check directory
+pwd
+
+# rsync file until completion
+trap "echo Exited!; exit;" SIGINT SIGTERM
+
+# limit attempts
+MAX_RETRIES=50
+i=0
+
+# Set the initial return value to failure
+false
+
+# rsync loop
+while [ $? -ne 0 -a $i -lt $MAX_RETRIES ]
+do
+    i=$(($i+1))
+    rsync \
+        -av \
+        --partial \
+        --progress \
+        /mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr${chr}/temp.* \
+        /scratch_ssd/
+    sleep 5
+done
+
+# exit on failure
+if [ $i -eq $MAX_RETRIES ]
+then
+    echo "Hit maximum number of retries, giving up."
+  
+    # cleanup temp files
+    rm -rf /scratch_ssd/* 
+  
+    exit 
+fi
+
+# call r script
+Rscript SCT.r --chr=${chr}
+
+# cleanup temp files
+rm -rf /scratch_ssd/* 
