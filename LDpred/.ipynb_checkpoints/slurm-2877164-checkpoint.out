@@ -1,0 +1,23 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+PLINK v2.00a3LM 64-bit Intel (20 Apr 2021)     www.cog-genomics.org/plink/2.0/
+(C) 2005-2021 Shaun Purcell, Christopher Chang   GNU General Public License v3
+Logging to plink2.log.
+Options in effect:
+  --bfile /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune
+  --keep /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/plink_filter_keep.txt
+  --make-bed
+
+Start time: Tue Aug 10 13:07:15 2021
+128836 MiB RAM detected; reserving 64418 MiB for main workspace.
+Using up to 16 threads (change this with --threads).
+460108 samples (249814 females, 210294 males; 460108 founders) loaded from
+/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.fam.
+487427 variants loaded from
+/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim.
+Note: No phenotype data present.
+--keep: 5000 samples remaining.
+5000 samples (2769 females, 2231 males; 5000 founders) remaining after main
+filters.
+Writing plink2.fam ... done.
+Writing plink2.bim ... done.
+Writing plink2.bed ... 0%

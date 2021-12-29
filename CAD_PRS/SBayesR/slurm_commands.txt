@@ -1,0 +1,32 @@
+# Valid datasets: aric, mesa, rpgeh, emerge3, 1000g, ukbb, ukbb_eur_split, ukbb_eur, ukbb_afr, ukbb_mixed, ukbb_eur_stsi3, ukbb_eur_stsi5
+
+## Test system arguments:
+ 1.my_dataset=aric
+ 2.debug_mode=1
+ 3.outputdir=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/PRS_Calculated/
+ 4.my_weights=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.csv
+ 5.my_wgs=false
+ 6.my_digit=false
+
+
+
+###########################
+## exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted
+Total SNPs: 2865114
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted --out=aric-c1-1-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.o%j pipeline_slurm.qsub
+Submitted batch job 2956086
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted --out=aric-c1-3-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.o%j pipeline_slurm.qsub
+Submitted batch job 2956087
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted --out=aric-c1-5-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.o%j pipeline_slurm.qsub
+Submitted batch job 2956088
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/SBayesR/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted --out=aric-c1-mixed-exBTs_regenie_phenoCol1_SPA_CADComp.regenie.reweighted.o%j pipeline_slurm.qsub
+Submitted batch job 2956089

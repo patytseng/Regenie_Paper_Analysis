@@ -1,0 +1,27 @@
+
+#!/bin/bash
+
+#PBS -N ldm_ch22
+#PBS -A UQ-IMB-CNSG
+#PBS -o stdout
+#PBS -e stderr
+#PBS -l select=1:ncpus=1,pmem=10GB,walltime=00:10:00
+#PBS -S /bin/bash
+#PBS -J 1-4
+
+chr=22
+
+k=5000
+bfile=../../../data/1000G_eur_chr22
+out=1000G_eur_chr22
+
+
+cd $PBS_O_WORKDIR
+
+i=${PBS_ARRAY_INDEX}
+module load intel/2018.3.051  
+gctb --bfile $bfile \
+     --make-shrunk-ldm \
+     --gen-map ../../../../shrunk_ld/interpolated_OMNI_genetic_map/chr22.OMNI.interpolated_genetic_map \
+     --snp $((k*(i-1)+1))-$((k*i)) --out $out > $out.snp$((k*(i-1)+1))-$((k*i)).ldm.shrunk.log 2>&1   
+

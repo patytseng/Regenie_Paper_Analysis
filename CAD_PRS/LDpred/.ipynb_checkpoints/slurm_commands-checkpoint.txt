@@ -1,0 +1,670 @@
+# Valid datasets: aric, mesa, rpgeh, emerge3, 1000g, ukbb, ukbb_eur_split, ukbb_eur, ukbb_afr, ukbb_mixed, ukbb_eur_stsi3, ukbb_eur_stsi5
+
+## Test system arguments:
+ 1.my_dataset=aric
+ 2.debug_mode=1
+ 3.outputdir=../LDpred/PRS_Calculated/
+ 4.my_weights=../LDpred/reweighted_LDpred_V*.csv
+ 5.my_wgs=false
+ 6.my_digit=false
+
+
+
+###########################
+## reweighted_LDpred_V10
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V10.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V10 --out=aric-c1-1-reweighted_LDpred_V10.o%j pipeline_slurm.qsub
+Submitted batch job 2944919
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V10.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V10 --out=aric-c1-3-reweighted_LDpred_V10.o%j pipeline_slurm.qsub
+Submitted batch job 2944920
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V10.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V10 --out=aric-c1-5-reweighted_LDpred_V10.o%j pipeline_slurm.qsub
+Submitted batch job 2944921
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V10.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V10 --out=aric-c1-mixed-reweighted_LDpred_V10.o%j pipeline_slurm.qsub
+Submitted batch job 2944922
+
+
+###########################
+## reweighted_LDpred_V11
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V11.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V11 --out=aric-c1-1-reweighted_LDpred_V11.o%j pipeline_slurm.qsub
+Submitted batch job 2944923
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V11.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V11 --out=aric-c1-3-reweighted_LDpred_V11.o%j pipeline_slurm.qsub
+Submitted batch job 2944924
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V11.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V11 --out=aric-c1-5-reweighted_LDpred_V11.o%j pipeline_slurm.qsub
+Submitted batch job 2944925
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V11.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V11 --out=aric-c1-mixed-reweighted_LDpred_V11.o%j pipeline_slurm.qsub
+Submitted batch job 2944926
+
+
+###########################
+## reweighted_LDpred_V12
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V12.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V12 --out=aric-c1-1-reweighted_LDpred_V12.o%j pipeline_slurm.qsub
+Submitted batch job 2944927
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V12.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V12 --out=aric-c1-3-reweighted_LDpred_V12.o%j pipeline_slurm.qsub
+Submitted batch job 2944928
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V12.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V12 --out=aric-c1-5-reweighted_LDpred_V12.o%j pipeline_slurm.qsub
+Submitted batch job 2944929
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V12.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V12 --out=aric-c1-mixed-reweighted_LDpred_V12.o%j pipeline_slurm.qsub
+Submitted batch job 2944930
+
+
+###########################
+## reweighted_LDpred_V13
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V13.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V13 --out=aric-c1-1-reweighted_LDpred_V13.o%j pipeline_slurm.qsub
+Submitted batch job 2944931
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V13.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V13 --out=aric-c1-3-reweighted_LDpred_V13.o%j pipeline_slurm.qsub
+Submitted batch job 2944932
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V13.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V13 --out=aric-c1-5-reweighted_LDpred_V13.o%j pipeline_slurm.qsub
+Submitted batch job 2944933
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V13.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V13 --out=aric-c1-mixed-reweighted_LDpred_V13.o%j pipeline_slurm.qsub
+Submitted batch job 2944934
+
+
+###########################
+## reweighted_LDpred_V14
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V14.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V14 --out=aric-c1-1-reweighted_LDpred_V14.o%j pipeline_slurm.qsub
+Submitted batch job 2944935
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V14.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V14 --out=aric-c1-3-reweighted_LDpred_V14.o%j pipeline_slurm.qsub
+Submitted batch job 2944936
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V14.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V14 --out=aric-c1-5-reweighted_LDpred_V14.o%j pipeline_slurm.qsub
+Submitted batch job 2944937
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V14.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V14 --out=aric-c1-mixed-reweighted_LDpred_V14.o%j pipeline_slurm.qsub
+Submitted batch job 2944938
+
+
+###########################
+## reweighted_LDpred_V15
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V15.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V15 --out=aric-c1-1-reweighted_LDpred_V15.o%j pipeline_slurm.qsub
+Submitted batch job 2944939
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V15.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V15 --out=aric-c1-3-reweighted_LDpred_V15.o%j pipeline_slurm.qsub
+Submitted batch job 2944940
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V15.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V15 --out=aric-c1-5-reweighted_LDpred_V15.o%j pipeline_slurm.qsub
+Submitted batch job 2944941
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V15.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V15 --out=aric-c1-mixed-reweighted_LDpred_V15.o%j pipeline_slurm.qsub
+Submitted batch job 2944942
+
+
+###########################
+## reweighted_LDpred_V16
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V16.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V16 --out=aric-c1-1-reweighted_LDpred_V16.o%j pipeline_slurm.qsub
+Submitted batch job 2944943
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V16.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V16 --out=aric-c1-3-reweighted_LDpred_V16.o%j pipeline_slurm.qsub
+Submitted batch job 2944944
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V16.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V16 --out=aric-c1-5-reweighted_LDpred_V16.o%j pipeline_slurm.qsub
+Submitted batch job 2944945
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V16.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V16 --out=aric-c1-mixed-reweighted_LDpred_V16.o%j pipeline_slurm.qsub
+Submitted batch job 2944946
+
+
+###########################
+## reweighted_LDpred_V17
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V17.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V17 --out=aric-c1-1-reweighted_LDpred_V17.o%j pipeline_slurm.qsub
+Submitted batch job 2944947
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V17.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V17 --out=aric-c1-3-reweighted_LDpred_V17.o%j pipeline_slurm.qsub
+Submitted batch job 2944948
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V17.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V17 --out=aric-c1-5-reweighted_LDpred_V17.o%j pipeline_slurm.qsub
+Submitted batch job 2944949
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V17.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V17 --out=aric-c1-mixed-reweighted_LDpred_V17.o%j pipeline_slurm.qsub
+Submitted batch job 2944950
+
+
+###########################
+## reweighted_LDpred_V18
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V18.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V18 --out=aric-c1-1-reweighted_LDpred_V18.o%j pipeline_slurm.qsub
+Submitted batch job 2944951
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V18.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V18 --out=aric-c1-3-reweighted_LDpred_V18.o%j pipeline_slurm.qsub
+Submitted batch job 2944952
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V18.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V18 --out=aric-c1-5-reweighted_LDpred_V18.o%j pipeline_slurm.qsub
+Submitted batch job 2944953
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V18.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V18 --out=aric-c1-mixed-reweighted_LDpred_V18.o%j pipeline_slurm.qsub
+Submitted batch job 2944954
+
+
+###########################
+## reweighted_LDpred_V19
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V19.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V19 --out=aric-c1-1-reweighted_LDpred_V19.o%j pipeline_slurm.qsub
+Submitted batch job 2944955
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V19.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V19 --out=aric-c1-3-reweighted_LDpred_V19.o%j pipeline_slurm.qsub
+Submitted batch job 2944956
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V19.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V19 --out=aric-c1-5-reweighted_LDpred_V19.o%j pipeline_slurm.qsub
+Submitted batch job 2944957
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V19.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V19 --out=aric-c1-mixed-reweighted_LDpred_V19.o%j pipeline_slurm.qsub
+Submitted batch job 2944958
+
+
+###########################
+## reweighted_LDpred_V1
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V1.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V1 --out=aric-c1-1-reweighted_LDpred_V1.o%j pipeline_slurm.qsub
+Submitted batch job 2944959
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V1.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V1 --out=aric-c1-3-reweighted_LDpred_V1.o%j pipeline_slurm.qsub
+Submitted batch job 2944960
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V1.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V1 --out=aric-c1-5-reweighted_LDpred_V1.o%j pipeline_slurm.qsub
+Submitted batch job 2944961
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V1.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V1 --out=aric-c1-mixed-reweighted_LDpred_V1.o%j pipeline_slurm.qsub
+Submitted batch job 2944962
+
+
+###########################
+## reweighted_LDpred_V20
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V20.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V20 --out=aric-c1-1-reweighted_LDpred_V20.o%j pipeline_slurm.qsub
+Submitted batch job 2944963
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V20.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V20 --out=aric-c1-3-reweighted_LDpred_V20.o%j pipeline_slurm.qsub
+Submitted batch job 2944964
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V20.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V20 --out=aric-c1-5-reweighted_LDpred_V20.o%j pipeline_slurm.qsub
+Submitted batch job 2944965
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V20.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V20 --out=aric-c1-mixed-reweighted_LDpred_V20.o%j pipeline_slurm.qsub
+Submitted batch job 2944966
+
+
+###########################
+## reweighted_LDpred_V21
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V21.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V21 --out=aric-c1-1-reweighted_LDpred_V21.o%j pipeline_slurm.qsub
+Submitted batch job 2944967
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V21.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V21 --out=aric-c1-3-reweighted_LDpred_V21.o%j pipeline_slurm.qsub
+Submitted batch job 2944968
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V21.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V21 --out=aric-c1-5-reweighted_LDpred_V21.o%j pipeline_slurm.qsub
+Submitted batch job 2944969
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V21.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V21 --out=aric-c1-mixed-reweighted_LDpred_V21.o%j pipeline_slurm.qsub
+Submitted batch job 2944970
+
+
+###########################
+## reweighted_LDpred_V22
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V22.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V22 --out=aric-c1-1-reweighted_LDpred_V22.o%j pipeline_slurm.qsub
+Submitted batch job 2944971
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V22.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V22 --out=aric-c1-3-reweighted_LDpred_V22.o%j pipeline_slurm.qsub
+Submitted batch job 2944972
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V22.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V22 --out=aric-c1-5-reweighted_LDpred_V22.o%j pipeline_slurm.qsub
+Submitted batch job 2944973
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V22.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V22 --out=aric-c1-mixed-reweighted_LDpred_V22.o%j pipeline_slurm.qsub
+Submitted batch job 2944974
+
+
+###########################
+## reweighted_LDpred_V23
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V23.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V23 --out=aric-c1-1-reweighted_LDpred_V23.o%j pipeline_slurm.qsub
+Submitted batch job 2944975
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V23.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V23 --out=aric-c1-3-reweighted_LDpred_V23.o%j pipeline_slurm.qsub
+Submitted batch job 2944976
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V23.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V23 --out=aric-c1-5-reweighted_LDpred_V23.o%j pipeline_slurm.qsub
+Submitted batch job 2944977
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V23.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V23 --out=aric-c1-mixed-reweighted_LDpred_V23.o%j pipeline_slurm.qsub
+Submitted batch job 2944978
+
+
+###########################
+## reweighted_LDpred_V24
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V24.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V24 --out=aric-c1-1-reweighted_LDpred_V24.o%j pipeline_slurm.qsub
+Submitted batch job 2944979
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V24.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V24 --out=aric-c1-3-reweighted_LDpred_V24.o%j pipeline_slurm.qsub
+Submitted batch job 2944980
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V24.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V24 --out=aric-c1-5-reweighted_LDpred_V24.o%j pipeline_slurm.qsub
+Submitted batch job 2944981
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V24.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V24 --out=aric-c1-mixed-reweighted_LDpred_V24.o%j pipeline_slurm.qsub
+Submitted batch job 2944982
+
+
+###########################
+## reweighted_LDpred_V25
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V25.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V25 --out=aric-c1-1-reweighted_LDpred_V25.o%j pipeline_slurm.qsub
+Submitted batch job 2944983
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V25.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V25 --out=aric-c1-3-reweighted_LDpred_V25.o%j pipeline_slurm.qsub
+Submitted batch job 2944984
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V25.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V25 --out=aric-c1-5-reweighted_LDpred_V25.o%j pipeline_slurm.qsub
+Submitted batch job 2944985
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V25.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V25 --out=aric-c1-mixed-reweighted_LDpred_V25.o%j pipeline_slurm.qsub
+Submitted batch job 2944986
+
+
+###########################
+## reweighted_LDpred_V26
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V26.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V26 --out=aric-c1-1-reweighted_LDpred_V26.o%j pipeline_slurm.qsub
+Submitted batch job 2944987
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V26.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V26 --out=aric-c1-3-reweighted_LDpred_V26.o%j pipeline_slurm.qsub
+Submitted batch job 2944988
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V26.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V26 --out=aric-c1-5-reweighted_LDpred_V26.o%j pipeline_slurm.qsub
+Submitted batch job 2944989
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V26.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V26 --out=aric-c1-mixed-reweighted_LDpred_V26.o%j pipeline_slurm.qsub
+Submitted batch job 2944990
+
+
+###########################
+## reweighted_LDpred_V27
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V27.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V27 --out=aric-c1-1-reweighted_LDpred_V27.o%j pipeline_slurm.qsub
+Submitted batch job 2944991
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V27.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V27 --out=aric-c1-3-reweighted_LDpred_V27.o%j pipeline_slurm.qsub
+Submitted batch job 2944992
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V27.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V27 --out=aric-c1-5-reweighted_LDpred_V27.o%j pipeline_slurm.qsub
+Submitted batch job 2944993
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V27.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V27 --out=aric-c1-mixed-reweighted_LDpred_V27.o%j pipeline_slurm.qsub
+Submitted batch job 2944994
+
+
+###########################
+## reweighted_LDpred_V28
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V28.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V28 --out=aric-c1-1-reweighted_LDpred_V28.o%j pipeline_slurm.qsub
+Submitted batch job 2944995
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V28.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V28 --out=aric-c1-3-reweighted_LDpred_V28.o%j pipeline_slurm.qsub
+Submitted batch job 2944996
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V28.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V28 --out=aric-c1-5-reweighted_LDpred_V28.o%j pipeline_slurm.qsub
+Submitted batch job 2944997
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V28.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V28 --out=aric-c1-mixed-reweighted_LDpred_V28.o%j pipeline_slurm.qsub
+Submitted batch job 2944998
+
+
+###########################
+## reweighted_LDpred_V29
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V29.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V29 --out=aric-c1-1-reweighted_LDpred_V29.o%j pipeline_slurm.qsub
+Submitted batch job 2944999
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V29.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V29 --out=aric-c1-3-reweighted_LDpred_V29.o%j pipeline_slurm.qsub
+Submitted batch job 2945000
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V29.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V29 --out=aric-c1-5-reweighted_LDpred_V29.o%j pipeline_slurm.qsub
+Submitted batch job 2945001
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V29.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V29 --out=aric-c1-mixed-reweighted_LDpred_V29.o%j pipeline_slurm.qsub
+Submitted batch job 2945002
+
+
+###########################
+## reweighted_LDpred_V2
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V2.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V2 --out=aric-c1-1-reweighted_LDpred_V2.o%j pipeline_slurm.qsub
+Submitted batch job 2945003
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V2.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V2 --out=aric-c1-3-reweighted_LDpred_V2.o%j pipeline_slurm.qsub
+Submitted batch job 2945004
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V2.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V2 --out=aric-c1-5-reweighted_LDpred_V2.o%j pipeline_slurm.qsub
+Submitted batch job 2945005
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V2.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V2 --out=aric-c1-mixed-reweighted_LDpred_V2.o%j pipeline_slurm.qsub
+Submitted batch job 2945006
+
+
+###########################
+## reweighted_LDpred_V30
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V30.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V30 --out=aric-c1-1-reweighted_LDpred_V30.o%j pipeline_slurm.qsub
+Submitted batch job 2945007
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V30.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V30 --out=aric-c1-3-reweighted_LDpred_V30.o%j pipeline_slurm.qsub
+Submitted batch job 2945008
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V30.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V30 --out=aric-c1-5-reweighted_LDpred_V30.o%j pipeline_slurm.qsub
+Submitted batch job 2945009
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V30.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V30 --out=aric-c1-mixed-reweighted_LDpred_V30.o%j pipeline_slurm.qsub
+Submitted batch job 2945010
+
+
+###########################
+## reweighted_LDpred_V3
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V3.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V3 --out=aric-c1-1-reweighted_LDpred_V3.o%j pipeline_slurm.qsub
+Submitted batch job 2945011
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V3.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V3 --out=aric-c1-3-reweighted_LDpred_V3.o%j pipeline_slurm.qsub
+Submitted batch job 2945012
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V3.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V3 --out=aric-c1-5-reweighted_LDpred_V3.o%j pipeline_slurm.qsub
+Submitted batch job 2945013
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V3.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V3 --out=aric-c1-mixed-reweighted_LDpred_V3.o%j pipeline_slurm.qsub
+Submitted batch job 2945014
+
+
+###########################
+## reweighted_LDpred_V4
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V4.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V4 --out=aric-c1-1-reweighted_LDpred_V4.o%j pipeline_slurm.qsub
+Submitted batch job 2945015
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V4.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V4 --out=aric-c1-3-reweighted_LDpred_V4.o%j pipeline_slurm.qsub
+Submitted batch job 2945016
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V4.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V4 --out=aric-c1-5-reweighted_LDpred_V4.o%j pipeline_slurm.qsub
+Submitted batch job 2945017
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V4.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V4 --out=aric-c1-mixed-reweighted_LDpred_V4.o%j pipeline_slurm.qsub
+Submitted batch job 2945018
+
+
+###########################
+## reweighted_LDpred_V5
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V5.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V5 --out=aric-c1-1-reweighted_LDpred_V5.o%j pipeline_slurm.qsub
+Submitted batch job 2945019
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V5.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V5 --out=aric-c1-3-reweighted_LDpred_V5.o%j pipeline_slurm.qsub
+Submitted batch job 2945020
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V5.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V5 --out=aric-c1-5-reweighted_LDpred_V5.o%j pipeline_slurm.qsub
+Submitted batch job 2945021
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V5.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V5 --out=aric-c1-mixed-reweighted_LDpred_V5.o%j pipeline_slurm.qsub
+Submitted batch job 2945022
+
+
+###########################
+## reweighted_LDpred_V6
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V6.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V6 --out=aric-c1-1-reweighted_LDpred_V6.o%j pipeline_slurm.qsub
+Submitted batch job 2945023
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V6.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V6 --out=aric-c1-3-reweighted_LDpred_V6.o%j pipeline_slurm.qsub
+Submitted batch job 2945024
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V6.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V6 --out=aric-c1-5-reweighted_LDpred_V6.o%j pipeline_slurm.qsub
+Submitted batch job 2945025
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V6.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V6 --out=aric-c1-mixed-reweighted_LDpred_V6.o%j pipeline_slurm.qsub
+Submitted batch job 2945026
+
+
+###########################
+## reweighted_LDpred_V7
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V7.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V7 --out=aric-c1-1-reweighted_LDpred_V7.o%j pipeline_slurm.qsub
+Submitted batch job 2945027
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V7.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V7 --out=aric-c1-3-reweighted_LDpred_V7.o%j pipeline_slurm.qsub
+Submitted batch job 2945028
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V7.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V7 --out=aric-c1-5-reweighted_LDpred_V7.o%j pipeline_slurm.qsub
+Submitted batch job 2945029
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V7.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V7 --out=aric-c1-mixed-reweighted_LDpred_V7.o%j pipeline_slurm.qsub
+Submitted batch job 2945030
+
+
+###########################
+## reweighted_LDpred_V8
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V8.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V8 --out=aric-c1-1-reweighted_LDpred_V8.o%j pipeline_slurm.qsub
+Submitted batch job 2945031
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V8.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V8 --out=aric-c1-3-reweighted_LDpred_V8.o%j pipeline_slurm.qsub
+Submitted batch job 2945032
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V8.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V8 --out=aric-c1-5-reweighted_LDpred_V8.o%j pipeline_slurm.qsub
+Submitted batch job 2945033
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V8.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V8 --out=aric-c1-mixed-reweighted_LDpred_V8.o%j pipeline_slurm.qsub
+Submitted batch job 2945034
+
+
+###########################
+## reweighted_LDpred_V9
+Total SNPs: 607762
+###########################
+
+## aric_c1
+# ancestry:1 sample:8291
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V9.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_1/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_1,my_wgs=false --job-name=aric-c1-1-reweighted_LDpred_V9 --out=aric-c1-1-reweighted_LDpred_V9.o%j pipeline_slurm.qsub
+Submitted batch job 2945035
+# ancestry:2 sample:0
+# ancestry:3 sample:3
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V9.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_3/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_3,my_wgs=false --job-name=aric-c1-3-reweighted_LDpred_V9 --out=aric-c1-3-reweighted_LDpred_V9.o%j pipeline_slurm.qsub
+Submitted batch job 2945036
+# ancestry:4 sample:0
+# ancestry:5 sample:511
+sbatch --export=my_weight=../LDpred/reweighted_LDpred_V9.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_5/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_5,my_wgs=false --job-name=aric-c1-5-reweighted_LDpred_V9 --out=aric-c1-5-reweighted_LDpred_V9.o%j pipeline_slurm.qsub
+Submitted batch job 2945037
+# ancestry:mixed sample:4297
+sbatch --nodes=1 --ntasks=1 --cpus-per-task=16 --mem=120gb --export=my_chunk_size=10000,my_weight=../LDpred/reweighted_LDpred_V9.csv,my_vcf=/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC_raqueld/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry_mixed/imputed_{}.dose.vcf.gz,my_out=../LDpred/PRS_Calculated/,my_prj=aric_c1-ancestry_mixed,my_wgs=false --job-name=aric-c1-mixed-reweighted_LDpred_V9 --out=aric-c1-mixed-reweighted_LDpred_V9.o%j pipeline_slurm.qsub
+Submitted batch job 2945038

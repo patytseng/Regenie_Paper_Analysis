@@ -1,0 +1,441 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+
+=============================== [96mLDpred v. 1.0.10[0m ===============================
+
+Applying LDpred with LD radius: 250
+607762 SNP effects were found
+Calculating LDpred-inf weights
+Starting LDpred gibbs with f=0.0001
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 1245.9930
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 417.3438
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0001
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 846.7403
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 238.0614
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0002
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 644.8764
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 215.2748
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0003
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 427.4791
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 144.3903
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0004
+4.55%9.09%Sum of squared updated effects estimates seems too large: 23.1024
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 316.5585
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 128.1731
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0005
+4.55%Sum of squared updated effects estimates seems too large: 4.2977
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 20.3294
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 251.6885
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%Sum of squared updated effects estimates seems too large: 7.8810
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 105.9514
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0007
+4.55%Sum of squared updated effects estimates seems too large: 18.2926
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 32.7992
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 169.0436
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%Sum of squared updated effects estimates seems too large: 6.5780
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 74.1295
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0009
+4.55%Sum of squared updated effects estimates seems too large: 2.0912
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 27.2108
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 132.1431
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.7546
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 2.5388
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 14.4029
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 54.3547
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0012
+4.55%Sum of squared updated effects estimates seems too large: 12.6090
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 28.8596
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 103.6861
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.5307
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 1.8121
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 13.2378
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 36.5607
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0017
+4.55%Sum of squared updated effects estimates seems too large: 12.0808
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 26.0065
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 73.7359
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.3739
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 1.3451
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 13.5032
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 2.0110
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%Sum of squared updated effects estimates seems too large: 7.8144
+This suggests that the Gibbs sampler did not convergence.
+59.09%63.64%68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 18.1598
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 5.6096
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0023
+4.55%Sum of squared updated effects estimates seems too large: 14.1144
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 22.8465
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%Sum of squared updated effects estimates seems too large: 0.1690
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 47.6730
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 1.9157
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 6.0094
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 7.4568
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 5.5651
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%Sum of squared updated effects estimates seems too large: 5.0146
+This suggests that the Gibbs sampler did not convergence.
+59.09%Sum of squared updated effects estimates seems too large: 1.6349
+This suggests that the Gibbs sampler did not convergence.
+63.64%Sum of squared updated effects estimates seems too large: 0.7928
+This suggests that the Gibbs sampler did not convergence.
+68.18%72.73%77.27%81.82%Sum of squared updated effects estimates seems too large: 17.0463
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 3.8527
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0032
+4.55%Sum of squared updated effects estimates seems too large: 10.9881
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 19.3052
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%Sum of squared updated effects estimates seems too large: 5.3292
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 26.9875
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 3.3577
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 8.8741
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 2.3239
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 7.7686
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.1612
+This suggests that the Gibbs sampler did not convergence.
+54.55%Sum of squared updated effects estimates seems too large: 2.6217
+This suggests that the Gibbs sampler did not convergence.
+59.09%Sum of squared updated effects estimates seems too large: 0.4264
+This suggests that the Gibbs sampler did not convergence.
+63.64%Sum of squared updated effects estimates seems too large: 0.4752
+This suggests that the Gibbs sampler did not convergence.
+68.18%72.73%Sum of squared updated effects estimates seems too large: 3.4656
+This suggests that the Gibbs sampler did not convergence.
+77.27%81.82%Sum of squared updated effects estimates seems too large: 11.2979
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 2.1674
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0043
+Sum of squared updated effects estimates seems too large: 5.2413
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 5.3881
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 13.6615
+This suggests that the Gibbs sampler did not convergence.
+13.64%Sum of squared updated effects estimates seems too large: 0.3626
+This suggests that the Gibbs sampler did not convergence.
+18.18%Sum of squared updated effects estimates seems too large: 2.4117
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 20.2218
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 2.1613
+This suggests that the Gibbs sampler did not convergence.
+31.82%Sum of squared updated effects estimates seems too large: 1.1629
+This suggests that the Gibbs sampler did not convergence.
+36.36%Sum of squared updated effects estimates seems too large: 10.0550
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 2.4059
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 5.7505
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.1074
+This suggests that the Gibbs sampler did not convergence.
+54.55%Sum of squared updated effects estimates seems too large: 1.3750
+This suggests that the Gibbs sampler did not convergence.
+59.09%Sum of squared updated effects estimates seems too large: 0.2244
+This suggests that the Gibbs sampler did not convergence.
+63.64%Sum of squared updated effects estimates seems too large: 0.3729
+This suggests that the Gibbs sampler did not convergence.
+68.18%72.73%Sum of squared updated effects estimates seems too large: 3.6956
+This suggests that the Gibbs sampler did not convergence.
+77.27%81.82%Sum of squared updated effects estimates seems too large: 5.2549
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 0.8729
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0059
+Sum of squared updated effects estimates seems too large: 5.5098
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 2.7899
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 7.8822
+This suggests that the Gibbs sampler did not convergence.
+13.64%Sum of squared updated effects estimates seems too large: 0.2788
+This suggests that the Gibbs sampler did not convergence.
+18.18%Sum of squared updated effects estimates seems too large: 2.4487
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 11.7011
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 1.1243
+This suggests that the Gibbs sampler did not convergence.
+31.82%Sum of squared updated effects estimates seems too large: 0.3773
+This suggests that the Gibbs sampler did not convergence.
+36.36%Sum of squared updated effects estimates seems too large: 10.7143
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 1.0187
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 3.6019
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 1.4557
+This suggests that the Gibbs sampler did not convergence.
+54.55%Sum of squared updated effects estimates seems too large: 0.8394
+This suggests that the Gibbs sampler did not convergence.
+59.09%Sum of squared updated effects estimates seems too large: 0.1014
+This suggests that the Gibbs sampler did not convergence.
+63.64%Sum of squared updated effects estimates seems too large: 3.0262
+This suggests that the Gibbs sampler did not convergence.
+68.18%72.73%Sum of squared updated effects estimates seems too large: 3.9729
+This suggests that the Gibbs sampler did not convergence.
+77.27%Sum of squared updated effects estimates seems too large: 1.1798
+This suggests that the Gibbs sampler did not convergence.
+81.82%Sum of squared updated effects estimates seems too large: 3.4217
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 0.2866
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0081
+Sum of squared updated effects estimates seems too large: 2.7617
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 2.0635
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 3.2076
+This suggests that the Gibbs sampler did not convergence.
+13.64%Sum of squared updated effects estimates seems too large: 0.1877
+This suggests that the Gibbs sampler did not convergence.
+18.18%Sum of squared updated effects estimates seems too large: 0.5638
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 7.6593
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.6305
+This suggests that the Gibbs sampler did not convergence.
+31.82%Sum of squared updated effects estimates seems too large: 0.1623
+This suggests that the Gibbs sampler did not convergence.
+36.36%Sum of squared updated effects estimates seems too large: 3.0985
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 0.2541
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 1.3408
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.5046
+This suggests that the Gibbs sampler did not convergence.
+54.55%Sum of squared updated effects estimates seems too large: 0.3018
+This suggests that the Gibbs sampler did not convergence.
+59.09%63.64%Sum of squared updated effects estimates seems too large: 0.2510
+This suggests that the Gibbs sampler did not convergence.
+68.18%Sum of squared updated effects estimates seems too large: 0.1421
+This suggests that the Gibbs sampler did not convergence.
+72.73%Sum of squared updated effects estimates seems too large: 1.0138
+This suggests that the Gibbs sampler did not convergence.
+77.27%Sum of squared updated effects estimates seems too large: 0.3354
+This suggests that the Gibbs sampler did not convergence.
+81.82%Sum of squared updated effects estimates seems too large: 1.9760
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 0.3241
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0111
+Sum of squared updated effects estimates seems too large: 0.9532
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 0.7273
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 1.0986
+This suggests that the Gibbs sampler did not convergence.
+13.64%Sum of squared updated effects estimates seems too large: 0.1553
+This suggests that the Gibbs sampler did not convergence.
+18.18%Sum of squared updated effects estimates seems too large: 0.3561
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 3.4447
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.3547
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 1.0810
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 0.1663
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 0.6056
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.3635
+This suggests that the Gibbs sampler did not convergence.
+54.55%Sum of squared updated effects estimates seems too large: 0.1452
+This suggests that the Gibbs sampler did not convergence.
+59.09%63.64%Sum of squared updated effects estimates seems too large: 0.1912
+This suggests that the Gibbs sampler did not convergence.
+68.18%72.73%Sum of squared updated effects estimates seems too large: 0.7486
+This suggests that the Gibbs sampler did not convergence.
+77.27%81.82%Sum of squared updated effects estimates seems too large: 0.4530
+This suggests that the Gibbs sampler did not convergence.
+86.36%Sum of squared updated effects estimates seems too large: 0.1855
+This suggests that the Gibbs sampler did not convergence.
+90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0152
+Sum of squared updated effects estimates seems too large: 0.2096
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 0.5670
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 0.6203
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%Sum of squared updated effects estimates seems too large: 0.1348
+This suggests that the Gibbs sampler did not convergence.
+22.73%Sum of squared updated effects estimates seems too large: 1.6308
+This suggests that the Gibbs sampler did not convergence.
+27.27%Sum of squared updated effects estimates seems too large: 0.1939
+This suggests that the Gibbs sampler did not convergence.
+31.82%36.36%Sum of squared updated effects estimates seems too large: 0.9608
+This suggests that the Gibbs sampler did not convergence.
+40.91%Sum of squared updated effects estimates seems too large: 0.1085
+This suggests that the Gibbs sampler did not convergence.
+45.45%Sum of squared updated effects estimates seems too large: 0.3324
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.2221
+This suggests that the Gibbs sampler did not convergence.
+54.55%59.09%63.64%Sum of squared updated effects estimates seems too large: 0.1062
+This suggests that the Gibbs sampler did not convergence.
+68.18%Sum of squared updated effects estimates seems too large: 0.0967
+This suggests that the Gibbs sampler did not convergence.
+72.73%Sum of squared updated effects estimates seems too large: 0.1899
+This suggests that the Gibbs sampler did not convergence.
+77.27%81.82%Sum of squared updated effects estimates seems too large: 0.1440
+This suggests that the Gibbs sampler did not convergence.
+86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0208
+Sum of squared updated effects estimates seems too large: 0.1495
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 0.2070
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 0.2576
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.8260
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%Sum of squared updated effects estimates seems too large: 0.1984
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 0.2103
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.1819
+This suggests that the Gibbs sampler did not convergence.
+54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0285
+Sum of squared updated effects estimates seems too large: 0.1073
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 0.1289
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 0.0932
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.4029
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%Sum of squared updated effects estimates seems too large: 0.1317
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 0.1369
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0390
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.2359
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%Sum of squared updated effects estimates seems too large: 0.0898
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0533
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1361
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0730
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1089
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0999
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.1368
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.1873
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.2563
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.3509
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.4803
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.6575
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.9000
+4.55%9.09%13.64%18.18%22.73%27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+
+=========================== Summary of LDpred Gibbs ============================
+Coordinated data filename                         
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.coordinated
+SNP weights output file (prefix)                  
+               exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.reweighted
+LD data filename (prefix)                         
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.ld
+LD radius used                                                               250
+-------------------------------- LD information --------------------------------
+Genome-wide (LDscore) estimated heritability:                             0.0827
+Chi-square lambda (inflation statistic).                                  1.3082
+Running time for calculating LD information:                0 min and 54.14 secs
+----------------------------- LDpred Gibbs sampler -----------------------------
+Gibbs sampler fractions used                      
+[0.0001, 0.0001368842, 0.0001873727, 0.0002564836, 0.0003510854, 0.0004805803, 0.0006578383, 0.0009004764, 0.0012326095, 0.0016872472, 0.0023095741, 0.0031614411, 0.004327512, 0.0059236784, 0.0081085773, 0.0110993578, 0.0151932624, 0.0207971694, 0.0284680303, 0.0389682237, 0.053341325, 0.0730158238, 0.0999470959, 0.136811741, 0.1872736002, 0.2563478914, 0.3508996536, 0.4803260375, 0.6574902537, 0.9]
+Convergence issues (for each fraction)            
+['Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'Yes', 'No', 'No', 'No', 'No', 'No', 'No', 'No', 'No']
+SNPs in long-range LD regions                                                  0
+Running time for Gibbs sampler(s):                       1944 min and 35.19 secs
+================================================================================
+

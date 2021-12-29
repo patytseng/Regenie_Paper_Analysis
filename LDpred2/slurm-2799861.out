@@ -1,0 +1,26 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+[1] "Loading bigSNP objects..."
+[1] "DONE"
+Warning message:
+Unknown or uninitialised column: `chromosome`. 
+[1] "Loading summary statistics..."
+Warning messages:
+1: The `value` argument of `names<-` must have the same length as `x` as of tibble 3.0.0.
+`names` must have length 8, not 4. 
+2: The `value` argument of `names<-` can't be empty as of tibble 3.0.0.
+Columns 5, 6, 7, and 8 must be named. 
+501,536 variants to be matched.
+Error: Can't combine `pos` <integer> and `pos` <character>.
+Backtrace:
+    █
+ 1. └─bigsnpr::snp_match(sumstats, map)
+ 2.   ├─...[]
+ 3.   ├─base::`[.data.frame`(...)
+ 4.   └─vctrs::vec_in(sumstats[, join_by[1:2]], info_snp[, join_by[1:2]])
+ 5.     └─(function () ...
+ 6.       └─vctrs::vec_default_ptype2(...)
+ 7.         └─vctrs::stop_incompatible_type(...)
+ 8.           └─vctrs:::stop_incompatible(...)
+ 9.             └─vctrs:::stop_vctrs(...)
+Execution halted

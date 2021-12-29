@@ -1,0 +1,31 @@
+PLINK v1.90b3.41 64-bit (10 Sep 2016)
+Options in effect:
+  --allow-no-sex
+  --bfile ../data/1000G_eur_chr22
+  --linear hide-covar
+  --mpheno 2
+  --out sim_2
+  --pheno ../pheno/phenos_ga1.txt
+
+Hostname: tn217c.local
+Working directory: /gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/gwas
+Start time: Tue Jan 29 14:16:03 2019
+
+Random number seed: 1548735363
+128656 MB RAM detected; reserving 64328 MB for main workspace.
+15938 variants loaded from .bim file.
+378 people (0 males, 0 females, 378 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to sim_2.nosex .
+378 phenotype values present after --pheno.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 378 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+15938 variants and 378 people pass filters and QC.
+Phenotype data is quantitative.
+Writing linear model association results to sim_2.assoc.linear ... done.
+
+End time: Tue Jan 29 14:16:03 2019
+1%42%43%44%45%46%47%48%49%50%51%52%53%54%55%56%57%58%59%60%61%62%63%64%65%66%67%68%69%70%71%72%73%74%75%76%77%78%79%80%81%82%83%84%85%86%87%88%89%90%91%92%93%94%95%96%97%98%99% done.
+15938 variants and 378 people pass filters and QC.
+Phenotype data is quantitative.
+Writing linear model association results to sim_2.assoc.linear ... 0%3%6%9%12%16%19%22%25%28%32%35%38%41%44%48%51%54%57%61%64%67%70%73%77%80%83%86%89%93%96%99%done.

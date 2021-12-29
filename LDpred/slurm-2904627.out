@@ -1,0 +1,17 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+
+=============================== [96mLDpred v. 1.0.10[0m ===============================
+
+Applying LDpred with LD radius: 250
+605884 SNP effects were found
+Calculating LDpred-inf weights
+Starting LDpred gibbs with f=0.0300
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.2948
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%Sum of squared updated effects estimates seems too large: 0.0910
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.0843
+This suggests that the Gibbs sampler did not convergence.
+54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0350
+4.55%slurmstepd: error: *** JOB 2904627 ON nodeb04113 CANCELLED AT 2021-08-18T11:20:50 ***

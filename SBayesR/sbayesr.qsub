@@ -1,0 +1,21 @@
+#!/bin/sh
+
+# module loading
+module purge
+module load python/3.8.3
+
+# check directory and node
+pwd
+squeue -u ptseng -t R -o "%i %N"
+
+# Commands
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/SBayesR/gctb_2.02_Linux/gctb \
+    --sbayes R \
+    --gwas-summary /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_SBayesR.stats \
+    --ldm /mnt/stsi/stsi1/ptseng/UKBB_Resources/SBayesR_LD/ukb_50k_bigset_2.8M/ukb50k_shrunk_chr${chr}_mafpt01.ldm.sparse \
+    --pi 0.95,0.02,0.02,0.01 \
+    --gamma 0.0,0.01,0.1,1 \
+    --chr ${chr} \
+    --out /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/SBayesR/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.chr${chr}.reweighted
+
+

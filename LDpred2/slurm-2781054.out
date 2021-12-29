@@ -1,0 +1,6 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+Error in sample.int(length(x), size, replace, prob) : 
+  invalid first argument
+Calls: sample -> sample.int
+Execution halted

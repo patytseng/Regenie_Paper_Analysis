@@ -1,0 +1,36 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --time=24:00:00
+#SBATCH --mem=240G
+#SBATCH --partition=highmem
+
+# module loading
+module purge
+module load python/3.8.3
+
+# current directory
+pwd
+
+# commands start
+rm exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.coordinated
+rm exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.lds
+
+ldpred coord \
+    --gf /mnt/stsi/stsi1/ptseng/UKBB_Resources/noimpute_bed/ukb41999_cal_v2_s488264 \
+    --ssf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred \
+    --ssf-format CUSTOM \
+    --rs ID \
+    --A1 ALLELE1 \
+    --A2 ALLELE0 \
+    --pos GENPOS \
+    --info INFO \
+    --chr CHROM \
+    --reffreq A0FREQ \
+    --pval P \
+    --eff BETA \
+    --eff_type LINREG \
+    --se SE \
+    --ncol N \
+    --out exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.coordinated

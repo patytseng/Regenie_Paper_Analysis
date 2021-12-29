@@ -1,0 +1,20 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=24:00:00
+#SBATCH --mem=120G
+
+# module loading
+module purge
+module load plink/2.00a3
+
+# current directory
+pwd
+
+# commands start
+plink2 \
+    --bfile /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune \
+    --keep ~/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred/plink_filter_keep.txt \
+    --make-bed 
+    --out /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.sampled

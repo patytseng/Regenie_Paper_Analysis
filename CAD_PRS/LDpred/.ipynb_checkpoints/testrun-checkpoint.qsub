@@ -1,0 +1,14 @@
+#!/bin/sh
+
+# module management
+module purge
+module load python/3.8.3
+module load samtools/1.10
+
+# directory
+pwd
+
+# commands
+python /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/PRS_validator.py \
+    --vcf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/TestCases/aric_ancestry-1_chr{}.vcf.gz \
+    --weights ${weights}

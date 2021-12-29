@@ -1,0 +1,29 @@
+#!/bin/bash
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=16
+#SBATCH --time=3-00:00:00
+#SBATCH --mem=60G
+
+# running example:
+module purge
+module load samtools
+module load python/3.8.3
+
+# current working directory
+pwd
+
+# commands start
+for i in {1..30}; \
+    do python PRS_Calculator.py \
+        --vcf /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/ /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-2/ /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/ /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-4/ /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/ /mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/ \
+        --suffix .vcf.gz \
+        --PRS V${i} \
+        --CHR chr \
+        --BP pos \
+        --EFFECT a0 \
+        --REFERENCE a1 \
+        --WEIGHT V${i} \
+        --ncore 16 \
+        --nthread 4; \
+done

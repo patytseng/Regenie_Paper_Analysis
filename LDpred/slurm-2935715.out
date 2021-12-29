@@ -1,0 +1,10 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+usage: LDpred gibbs [-h] --cf CF --ldr LDR --ldf LDF --out OUT [--f F [F ...]]
+                    [--N N] [--n-iter N_ITER] [--n-burn-in N_BURN_IN]
+                    [--h2 H2] [--use-gw-h2] [--no-ld-compression]
+                    [--hickle-ld] [--incl-long-range-ld]
+LDpred gibbs: error: the following arguments are required: --out
+
+=============================== [96mLDpred v. 1.0.10[0m ===============================
+
+/var/spool/slurm/d/job2935715/slurm_script: line 23: 0.0001000000: command not found

@@ -1,0 +1,18 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+mkdir: cannot create directory ‘/scratch_ssd/temp’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Error: Incompatibility between dimensions.
+Execution halted
+sending incremental file list
+rsync: link_stat "/scratch_ssd/temp.*" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+slurmstepd: error: *** JOB 2762510 ON nodeb04031 CANCELLED AT 2021-07-12T12:44:46 ***

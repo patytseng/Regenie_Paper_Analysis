@@ -1,0 +1,5 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+Error in nrow(G) : object 'G' not found
+Calls: sample -> nrow
+Execution halted

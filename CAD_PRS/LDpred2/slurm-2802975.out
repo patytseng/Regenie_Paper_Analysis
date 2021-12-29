@@ -1,0 +1,123 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS
+
+
+
+Input Options:
+  --vcf ['/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/', '/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-2/', '/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/', '/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-4/', '/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/', '/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/']
+  --suffix .vcf.gz
+  --PRS V1
+  --CHR chr
+  --BP pos
+  --EFFECT a0
+  --REFERENCE a1
+  --WEIGHT V1
+  --ncore 16
+  --nthread 4
+  --out None
+  --explicit False
+
+
+
+Obtained list of vcf files:
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_1.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_1.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_1.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_1.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_2.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_2.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_2.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_2.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_3.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_3.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_3.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_3.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_4.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_4.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_4.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_4.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_5.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_5.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_5.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_5.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_6.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_6.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_6.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_6.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_7.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_7.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_7.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_7.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_8.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_8.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_8.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_8.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_9.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_9.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_9.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_9.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_10.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_10.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_10.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_10.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_11.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_11.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_11.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_11.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_12.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_12.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_12.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_12.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_13.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_13.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_13.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_13.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_14.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_14.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_14.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_14.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_15.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_15.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_15.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_15.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_16.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_16.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_16.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_16.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_17.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_17.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_17.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_17.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_18.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_18.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_18.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_18.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_19.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_19.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_19.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_19.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_20.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_20.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_20.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_20.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_21.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_21.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_21.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_21.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-1/imputed_22.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-3/imputed_22.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-5/imputed_22.dose.vcf.gz
+/mnt/stsi/stsi3/Internal/dbGaP/ARIC/6_impute_HRC/ARIC_PLINK_flagged_chromosomal_abnormalities_zeroed_out_flipfix/ancestry-mixed/imputed_22.dose.vcf.gz
+
+
+
+Gathered [1047512 total SNPs from PRS file]
+SNP list uses 8697456 Bytes
+
+Gathered 13059 Subject IDs into ID library
+ID library uses 956498 Bytes
+
+PRS targets Chunked for parallel processing
+
+Preparations completed at 395.5570 seconds
+slurmstepd: error: _is_a_lwp: open() /proc/6005/status failed: No such file or directory
+slurmstepd: error: *** JOB 2802975 ON imsb0521 CANCELLED AT 2021-07-26T11:10:38 DUE TO TIME LIMIT ***

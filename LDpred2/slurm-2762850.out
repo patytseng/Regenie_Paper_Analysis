@@ -1,0 +1,270 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+mkdir: cannot create directory ‘/scratch_ssd/temp’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 43.5% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 438,591,433,316 bytes  received 54 bytes  145,204,910.90 bytes/sec
+total size is 438,484,381,323  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 46.3% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 467,259,940,402 bytes  received 54 bytes  145,134,319.14 bytes/sec
+total size is 467,145,890,969  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 39.1% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 393,738,063,350 bytes  received 54 bytes  144,783,255.53 bytes/sec
+total size is 393,641,959,213  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 40.4% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 407,582,271,673 bytes  received 54 bytes  146,322,840.33 bytes/sec
+total size is 407,482,788,424  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 35.6% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 358,440,496,003 bytes  received 54 bytes  146,511,545.50 bytes/sec
+total size is 358,353,007,331  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 37.1% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 373,651,167,491 bytes  received 54 bytes  146,157,311.77 bytes/sec
+total size is 373,559,966,179  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 32.6% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 328,796,461,210 bytes  received 54 bytes  139,705,316.02 bytes/sec
+total size is 328,716,208,090  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 30.4% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 306,175,433,491 bytes  received 54 bytes  147,447,837.01 bytes/sec
+total size is 306,100,701,731  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 24.1% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 243,380,015,891 bytes  received 54 bytes  147,816,590.31 bytes/sec
+total size is 243,320,611,299  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 28.1% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 283,746,538,529 bytes  received 54 bytes  138,446,713.14 bytes/sec
+total size is 283,677,281,233  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 27.2% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 274,581,271,240 bytes  received 54 bytes  145,937,428.27 bytes/sec
+total size is 274,514,251,016  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 26.7% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 268,927,280,431 bytes  received 54 bytes  146,116,425.15 bytes/sec
+total size is 268,861,640,239  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+Warning message:
+'/scratch_ssd/temp.bk' will take 20.1% of the available disk space. 
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 203,011,075,993 bytes  received 54 bytes  147,698,127.35 bytes/sec
+total size is 202,961,524,698  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 183,313,964,046 bytes  received 54 bytes  147,299,288.15 bytes/sec
+total size is 183,269,220,438  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 162,447,188,597 bytes  received 54 bytes  148,421,369.26 bytes/sec
+total size is 162,407,538,181  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 175,514,726,569 bytes  received 54 bytes  147,801,875.05 bytes/sec
+total size is 175,471,886,609  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 153,868,429,694 bytes  received 54 bytes  148,880,918.96 bytes/sec
+total size is 153,830,873,183  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 158,157,763,940 bytes  received 54 bytes  148,296,075.01 bytes/sec
+total size is 158,119,160,485  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 132,416,545,994 bytes  received 54 bytes  149,538,730.71 bytes/sec
+total size is 132,384,225,483  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 123,250,182,938 bytes  received 54 bytes  149,484,758.03 bytes/sec
+total size is 123,220,099,763  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 78,980,426,716 bytes  received 54 bytes  150,869,965.18 bytes/sec
+total size is 78,961,148,950  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+[1] "Finishing list of SNP IDs"
+[1] "Reading from BGEN and generating bigSNP object with selected SNPs"
+sending incremental file list
+temp.bk
+temp.rds
+
+sent 79,761,948,010 bytes  received 54 bytes  150,352,399.74 bytes/sec
+total size is 79,742,479,483  speedup is 1.00
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted

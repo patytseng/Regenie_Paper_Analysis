@@ -1,0 +1,34 @@
+
+#!/bin/bash
+
+#PBS -N mrg_ch22
+#PBS -A UQ-IMB-CNSG
+#PBS -o stdout
+#PBS -e stderr
+#PBS -l nodes=1:ppn=1,pmem=40GB,walltime=24:00:00
+#PBS -S /bin/bash
+
+chr=22
+
+k=5000
+
+filename=1000G_eur_chr22
+
+
+cd $PBS_O_WORKDIR
+
+out=$filename
+
+> $out.mldmlist
+
+
+for i in {1..4}
+do
+
+
+echo "${PWD}/$out.snp$((k*(i-1)+1))-$((k*i)).ldm.shrunk" >> $out.mldmlist
+
+done
+module load intel/2018.3.051
+gctb --mldm $out.mldmlist --make-shrunk-ldm --write-ldm-txt --out $out > $out.log 2>&1
+

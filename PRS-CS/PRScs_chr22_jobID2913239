@@ -1,0 +1,33 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS
+
+
+--ref_dir=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/ldblk_ukbb_eur
+--bim_prefix=/mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune
+--sst_file=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_PRScs
+--a=1
+--b=0.5
+--phi=None
+--n_gwas=460108
+--n_iter=1000
+--n_burnin=500
+--thin=5
+--out_dir=/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS
+--chrom=['22']
+--beta_std=False
+--seed=None
+
+
+##### process chromosome 22 #####
+... parse reference file: /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/ldblk_ukbb_eur/snpinfo_ukbb_hm3 ...
+... 16360 SNPs on chromosome 22 read from /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/ldblk_ukbb_eur/snpinfo_ukbb_hm3 ...
+... parse bim file: /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim ...
+... 7967 SNPs on chromosome 22 read from /mnt/stsi/stsi1/ptseng/UKBB_Resources/filtered_noimpute_bed/ukb_cal_allChrs_prune.bim ...
+... parse sumstats file: /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_PRScs ...
+Traceback (most recent call last):
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/PRScs/PRScs.py", line 167, in <module>
+    main()
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/PRScs/PRScs.py", line 156, in main
+    sst_dict = parse_genet.parse_sumstats(ref_dict, vld_dict, param_dict['sst_file'], param_dict['n_gwas'])
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/PRS-CS/PRScs/parse_genet.py", line 57, in parse_sumstats
+    with open(sst_file) as ff:
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_PRScs'

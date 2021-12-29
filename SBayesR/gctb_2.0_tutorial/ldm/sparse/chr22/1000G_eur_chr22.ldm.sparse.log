@@ -1,0 +1,36 @@
+***********************************************
+* GCTB 1.91                                   *
+* Genome-wide Complex Trait Bayesian analysis *
+* Author: Jian Zeng, Luke Lloyd-Jones         *
+* MIT License                                 *
+***********************************************
+
+Analysis started: Mon Feb  4 10:43:14 2019
+
+Options:
+
+--bfile ../../../data/1000G_eur_chr22
+--make-sparse-ldm 
+--out 1000G_eur_chr22
+
+Reading PLINK FAM file from [../../../data/1000G_eur_chr22.fam].
+378 individuals to be included from [../../../data/1000G_eur_chr22.fam].
+Reading phenotypes from [../../../data/1000G_eur_chr22.fam].
+Non-missing phenotypes of trait 1 of 378 individuals are included from [../../../data/1000G_eur_chr22.fam].
+378 matched individuals are kept.
+378 individuals assigned to processor tn509b.local at rank 0.
+Reading PLINK BIM file from [../../../data/1000G_eur_chr22.bim].
+15938 SNPs to be included from [../../../data/1000G_eur_chr22.bim].
+15938 SNPs on 1 chromosomes are included.
+Building sparse LD matrix for all SNPs ...
+Reading PLINK BED file from [../../../data/1000G_eur_chr22.bed] in SNP-major format ...
+ read snp 0 read snp 1000 read snp 2000 read snp 3000 read snp 4000 read snp 5000 read snp 6000 read snp 7000 read snp 8000 read snp 9000 read snp 10000 read snp 11000 read snp 12000 read snp 13000 read snp 14000 read snp 15000
+Per-SNP window size mean 119.364 sd 5034.64.
+LD matrix diagonal mean 1.0033 variance 0.0027422.
+Genotype data for 378 individuals and 15938 SNPs are included from [../../../data/1000G_eur_chr22.bed].
+Build of LD matrix completed (time used: 0:0:21).
+Written the SNP info into file [1000G_eur_chr22.ldm.sparse.info].
+Written the LD matrix into file [1000G_eur_chr22.ldm.sparse.bin].
+
+Analysis finished: Mon Feb  4 10:43:37 2019
+Computational time: 0:0:23

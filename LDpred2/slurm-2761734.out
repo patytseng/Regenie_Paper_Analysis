@@ -1,0 +1,31 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+mkdir: cannot create directory ‘/mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr1’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+Error in list(make_option(c("--chr"), type = "integer", default = NULL,  : 
+  argument 2 is empty
+Execution halted
+sending incremental file list
+rsync: link_stat "/scratch_ssd/temp.*" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+mkdir: cannot create directory ‘/mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr2’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+Error in list(make_option(c("--chr"), type = "integer", default = NULL,  : 
+  argument 2 is empty
+Execution halted
+sending incremental file list
+rsync: link_stat "/scratch_ssd/temp.*" failed: No such file or directory (2)
+
+sent 18 bytes  received 12 bytes  60.00 bytes/sec
+total size is 0  speedup is 0.00
+rsync error: some files/attrs were not transferred (see previous errors) (code 23) at main.c(1179) [sender=3.1.2]
+rm: cannot remove ‘/scratch_ssd/lost+found’: Operation not permitted
+mkdir: cannot create directory ‘/mnt/stsi/stsi1/ptseng/UKBB_Resources/ldpred2/chr3’: File exists
+Loading required package: bigstatsr
+[1] "Grabbing SNP IDs from stats file"
+slurmstepd: error: *** JOB 2761734 ON nodeb04031 CANCELLED AT 2021-07-12T12:38:11 ***

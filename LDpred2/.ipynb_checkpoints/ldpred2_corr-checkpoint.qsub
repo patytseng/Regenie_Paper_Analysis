@@ -1,0 +1,17 @@
+#!/bin/bash
+#SBATCH --nodes=1                   ### Node count required for the job
+#SBATCH --ntasks=1                  ### Nuber of tasks to be launched per Node
+#SBATCH --cpus-per-task=16
+#SBATCH --time=7-00:00:00
+#SBATCH --mem=60G
+
+# module loading
+module purge
+module load R
+module load gcc
+
+# current directory
+pwd
+
+# commands start
+Rscript ldpred2_corr.r --chr=22

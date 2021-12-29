@@ -1,0 +1,6 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+[1] "Grabbing bigSNP Object..."
+[1] "Grabbing bigSNP Object... done"
+[1] "Starting to make LD Matrix"
+/var/spool/slurm/d/job2772934/slurm_script: line 17: 13213 Killed                  Rscript ldpred2_corr.r --chr=22

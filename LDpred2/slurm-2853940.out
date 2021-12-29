@@ -1,0 +1,25 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred2
+Loading required package: bigstatsr
+[1] "Loading summary statistics..."
+[1] "Done"
+11,477,146 variants to be matched.
+0 ambiguous SNPs have been removed.
+1,054,139 variants have been matched; 0 were flipped and 0 were reversed.
+# A tibble: 1,053,539 x 21
+     chr    pos a0    a1    rsid.ss  a1_freq  info  n_eff test      beta beta_se
+   <int>  <int> <chr> <chr> <chr>      <dbl> <dbl>  <int> <chr>    <dbl>   <dbl>
+ 1     1 752721 A     G     rs31319…   0.826 1     487275 ADD   -8.52e-3 0.00896
+ 2     1 754182 A     G     rs31319…   0.857 0.991 487275 ADD   -5.65e-3 0.00956
+ 3     1 760912 C     T     rs10484…   0.830 0.991 487275 ADD   -7.79e-3 0.00892
+ 4     1 768448 G     A     rs12562…   0.111 1     487275 ADD    5.09e-4 0.0103 
+ 5     1 779322 A     G     rs40406…   0.137 1     487275 ADD    4.13e-3 0.00957
+ 6     1 838555 C     A     rs49703…   0.251 1     487275 ADD    2.60e-3 0.00749
+ 7     1 846808 C     T     rs44756…   0.202 0.997 487275 ADD    1.03e-3 0.00811
+ 8     1 853954 C     A     rs18065…   0.602 0.998 487275 ADD   -6.02e-3 0.00666
+ 9     1 854250 A     G     rs75377…   0.211 0.998 487275 ADD    2.50e-3 0.00796
+10     1 864938 G     A     rs23405…   0.746 0.994 487275 ADD   -5.05e-3 0.00760
+# … with 1,053,529 more rows, and 10 more variables: chi_sq <dbl>, log_p <dbl>,
+#   _NUM_ID_.ss <int>, rsid <chr>, af_UKBB <dbl>, ld <dbl>, pos_hg17 <int>,
+#   pos_hg18 <int>, pos_hg38 <int>, _NUM_ID_ <int>
+1.. 2.. 3.. 4.. 5.. 6.. 7.. 8.. 9.. 10.. 11.. 12.. 13.. 14.. 15.. 16.. 17.. 18.. 19.. 20.. 21.. 22..         int      int_se          h2       h2_se 
+1.025135733 0.009350267 0.048574440 0.002665962 

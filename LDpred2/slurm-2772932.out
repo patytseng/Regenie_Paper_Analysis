@@ -1,0 +1,15 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+Usage: ldpred2_corr.r [options]
+
+
+Options:
+	--chr=CHR
+		chromosome numbers
+
+	-h, --help
+		Show this help message and exit
+
+
+Error: At least one argument must be supplied (chromosome number).n
+Execution halted

@@ -1,0 +1,65 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/LDpred
+	
+	##############################
+	#                            #
+	#   PRS_Validator            #
+	#                            #
+	#   Torkamani_Lab            #
+	#                            #
+	#   Contributor: Shaun Chen  #
+	# Last Modified: 2020-01-04  #
+	#                            #
+	##############################
+	
+weight table is csv.
+Using core number: 16
+Parsing weight table: /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/LDpred/reweighted_LDpred_p0.050.csv
+Parsing vcf files: TestCases/aric_ancestry-1_chr{}.vcf.gz
+Project name: phs000000-ancestry_NA
+max_chunk_size: 200000
+wgs_mode: false
+
+loading csv weights file...
+Maximal digit: 14
+Input weight table is not standardized: Initiate essential checking process.
+Missing gene model info, assign all as additive.
+Index(['chr', 'bp', 'non_effect_allele', 'effect_allele', 'weight', 'additive',
+       'recessive', 'dominant'],
+      dtype='object')
+             chr        bp                SNP effect_allele non_effect_allele       weight  additive  recessive  dominant
+0        chrom_1    727841     chrom_1:727841             A                 G   0.00018349         1          0         0
+1        chrom_1    729632     chrom_1:729632             T                 C  -4.4227e-07         1          0         0
+2        chrom_1    752721     chrom_1:752721             A                 G   6.0439e-05         1          0         0
+3        chrom_1    754105     chrom_1:754105             T                 C   2.4271e-05         1          0         0
+4        chrom_1    756604     chrom_1:756604             A                 G   3.2295e-05         1          0         0
+...          ...       ...                ...           ...               ...          ...       ...        ...       ...
+607757  chrom_22  51177257  chrom_22:51177257             T                 C  -8.1547e-05         1          0         0
+607758  chrom_22  51183255  chrom_22:51183255             A                 G  -6.8037e-05         1          0         0
+607759  chrom_22  51185848  chrom_22:51185848             G                 A  -1.3031e-06         1          0         0
+607760  chrom_22  51193629  chrom_22:51193629             G                 A   9.9101e-06         1          0         0
+607761  chrom_22  51217954  chrom_22:51217954             A                 G  -1.9541e-05         1          0         0
+
+[607762 rows x 9 columns]
+Traceback (most recent call last):
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/PRS_validator.py", line 801, in <module>
+    main(my_weights_csv_fp, my_vcf_fp, my_output_dir, my_subject_name, my_cpus, my_chunk_size, my_wgs_mode, my_chrom, my_digit)
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/PRS_validator.py", line 740, in main
+    df = input_parser(weights_csv_fp, vcf_fp, output_dir, subject_name, my_cpus, max_chunk_size, wgs_mode, my_chrom, my_digit)
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/PRS_validator.py", line 669, in input_parser
+    weights, weights_idx, max_decimal = load_weight_csv(weights_csv_fp, output_dir, my_digit)
+  File "/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/CAD_PRS/PRS_validator/PRS_validator.py", line 241, in load_weight_csv
+    out = tmp.copy().astype(standard_cols_type)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/generic.py", line 5859, in astype
+    col.astype(dtype=dtype[col_name], copy=copy, errors=errors)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/generic.py", line 5874, in astype
+    new_data = self._mgr.astype(dtype=dtype, copy=copy, errors=errors)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 631, in astype
+    return self.apply("astype", dtype=dtype, copy=copy, errors=errors)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/internals/managers.py", line 427, in apply
+    applied = getattr(b, f)(**kwargs)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/internals/blocks.py", line 673, in astype
+    values = astype_nansafe(vals1d, dtype, copy=True)
+  File "/opt/applications/python/3.8.3/gnu/lib/python3.8/site-packages/pandas/core/dtypes/cast.py", line 1074, in astype_nansafe
+    return lib.astype_intsafe(arr.ravel(), dtype).reshape(arr.shape)
+  File "pandas/_libs/lib.pyx", line 619, in pandas._libs.lib.astype_intsafe
+ValueError: invalid literal for int() with base 10: 'chrom_1'

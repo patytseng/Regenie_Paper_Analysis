@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --nodes=1                   ### Node count required for the job
+#SBATCH --ntasks=1                  ### Nuber of tasks to be launched per Node
+#SBATCH --cpus-per-task=1
+#SBATCH --time=7-00:00:00
+#SBATCH --mem=240G
+#SBATCH --partition=highmem
+
+# module loading
+module purge
+module load R
+
+# current directory
+pwd
+
+# commands start
+mkdir /scratch_ssd/temp
+
+Rscript ldpred2_fileprep.r
+
+rsync -rtv /scratch_ssd/ /mnt/stsi/stsi1/ptseng/UKBB_Resources/
+
+rm -rf /scratch_ssd/* 

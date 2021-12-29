@@ -1,0 +1,40 @@
+***********************************************
+* GCTB 1.91                                   *
+* Genome-wide Complex Trait Bayesian analysis *
+* Author: Jian Zeng, Luke Lloyd-Jones         *
+* MIT License                                 *
+***********************************************
+
+Analysis started: Tue Feb  5 08:54:48 2019
+
+Options:
+
+--mldm 1000G_eur_chr22.mldmlist
+--make-shrunk-ldm 
+--write-ldm-txt 
+--out 1000G_eur_chr22
+
+Reading SNP info from [1000G_eur_chr22.mldmlist]...
+Reading SNP info from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp1-5000.ldm.shrunk.info].
+5000 SNPs to be included from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp1-5000.ldm.shrunk.info].
+Reading SNP info from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp5001-10000.ldm.shrunk.info].
+10000 SNPs to be included from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp5001-10000.ldm.shrunk.info].
+Reading SNP info from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp10001-15000.ldm.shrunk.info].
+15000 SNPs to be included from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp10001-15000.ldm.shrunk.info].
+Reading SNP info from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp15001-20000.ldm.shrunk.info].
+15919 SNPs to be included from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp15001-20000.ldm.shrunk.info].
+15919 SNPs on 1 chromosomes are included.
+Reading shrunk LD matrices from [1000G_eur_chr22.mldmlist]...
+Read shrunk LD matrix for 5000 SNPs from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp1-5000.ldm.shrunk.bin].
+Read shrunk LD matrix for 5000 SNPs from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp5001-10000.ldm.shrunk.bin].
+Read shrunk LD matrix for 5000 SNPs from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp10001-15000.ldm.shrunk.bin].
+Read shrunk LD matrix for 919 SNPs from [/gpfs1/scratch/group30days/cnsg_park/uqllloyd/tutorial/ldm/shrunk_mcpu/chr22/1000G_eur_chr22.snp15001-20000.ldm.shrunk.bin].
+Per-SNP window size mean 15919 sd 0.
+LD matrix diagnal mean 1.0038 sd 0.0523233.
+Read LD matrix for 15919 SNPs (time used: 0:0:4).
+Written the SNP info into file [1000G_eur_chr22.ldm.shrunk.info].
+Written the LD matrix into file [1000G_eur_chr22.ldm.shrunk.bin].
+Written the LD matrix into text file [1000G_eur_chr22.ldm.shrunk.txt].
+
+Analysis finished: Tue Feb  5 09:00:21 2019
+Computational time: 0:5:33

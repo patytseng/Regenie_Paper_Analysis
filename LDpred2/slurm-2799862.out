@@ -1,0 +1,25 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+[1] "Loading bigSNP objects..."
+[1] "DONE"
+Error: Assigned data `as.numeric(map$chromosome)` must be compatible with existing data.
+✖ Existing data has 1054330 rows.
+✖ Assigned data has 0 rows.
+ℹ Only vectors of size 1 are recycled.
+Backtrace:
+     █
+  1. ├─base::`$<-`(`*tmp*`, chromosome, value = numeric(0))
+  2. ├─tibble:::`$<-.tbl_df`(`*tmp*`, chromosome, value = numeric(0))
+  3. │ └─tibble:::tbl_subassign(...)
+  4. │   └─tibble:::vectbl_recycle_rhs(...)
+  5. │     ├─base::withCallingHandlers(...)
+  6. │     └─vctrs::vec_recycle(value[[j]], nrow)
+  7. ├─vctrs:::stop_recycle_incompatible_size(...)
+  8. │ └─vctrs:::stop_vctrs(...)
+  9. │   └─rlang::abort(message, class = c(class, "vctrs_error"), ...)
+ 10. │     └─rlang:::signal_abort(cnd)
+ 11. │       └─base::signalCondition(cnd)
+ 12. └─(function (cnd) ...
+Warning message:
+Unknown or uninitialised column: `chromosome`. 
+Execution halted

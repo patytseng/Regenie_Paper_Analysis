@@ -1,0 +1,18 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+[1] "Loading bigSNP objects..."
+[1] "DONE"
+[1] "Loading summary statistics..."
+501,536 variants to be matched.
+29,946 ambiguous SNPs have been removed.
+471,427 variants have been matched; 0 were flipped and 471,427 were reversed.
+[1] "DONE"
+[1] "Loading correlation info..."
+[1] "ind-1"
+[1] "ind-2"
+[1] "ind-3"
+[1] "readRDS"
+Error in intI(i, n = d[1], dn[[1]], give.dn = FALSE) : 
+  index larger than maximal 87145
+Calls: [ ... callGeneric -> eval -> eval -> [ -> [ -> subCsp_ij -> intI
+Execution halted

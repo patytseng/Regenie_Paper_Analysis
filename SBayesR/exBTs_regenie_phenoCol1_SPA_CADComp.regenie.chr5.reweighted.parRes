@@ -1,0 +1,11 @@
+Posterior statistics from MCMC samples:
+
+              Mean            SD             
+   NumSnp1    148475.515625   10756.324219   
+   NumSnp2    22856.533203    10055.822266   
+   NumSnp3    3986.359375     3587.702148    
+   NumSnp4    2882.625244     1242.036377    
+   SigmaSq    0.000014        0.000004       
+    ResVar    10.400237       0.021525       
+    GenVar    0.044390        0.003589       
+       hsq    0.004250        0.000343       

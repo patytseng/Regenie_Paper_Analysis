@@ -18,15 +18,15 @@ rm exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.coordinated
 
 ldpred coord \
     --gf /mnt/stsi/stsi1/ptseng/UKBB_Resources/noimpute_bed/ukb41999_cal_v2_s488264 \
-    --ssf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred \
+    --ssf /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred.stats \
     --ssf-format CUSTOM \
     --rs ID \
-    --A1 ALLELE1 \
-    --A2 ALLELE0 \
+    --A1 ALLELE0 \
+    --A2 ALLELE1 \
     --pos GENPOS \
     --info INFO \
     --chr CHROM \
-    --reffreq A0FREQ \
+    --reffreq A1FREQ \
     --pval P \
     --eff BETA \
     --eff_type LINREG \

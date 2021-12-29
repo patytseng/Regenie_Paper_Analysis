@@ -1,0 +1,19 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+
+=============================== [96mLDpred v. 1.0.10[0m ===============================
+
+Parsing summary statistics file: /gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred
+Traceback (most recent call last):
+  File "/gpfs/home/ptseng/.local/bin/ldpred", line 8, in <module>
+    sys.exit(main())
+  File "/gpfs/home/ptseng/.local/lib/python3.8/site-packages/ldpred/run.py", line 337, in main
+    main_with_args(sys.argv[1:])
+  File "/gpfs/home/ptseng/.local/lib/python3.8/site-packages/ldpred/run.py", line 321, in main_with_args
+    coord_genotypes.main(p_dict)
+  File "/gpfs/home/ptseng/.local/lib/python3.8/site-packages/ldpred/coord_genotypes.py", line 597, in main
+    sum_stats_parsers.parse_sum_stats(h5f, p_dict, bimfile, summary_dict)
+  File "/gpfs/home/ptseng/.local/lib/python3.8/site-packages/ldpred/sum_stats_parsers.py", line 75, in parse_sum_stats
+    parse_sum_stats_custom(ch=p_dict['chr'],
+  File "/gpfs/home/ptseng/.local/lib/python3.8/site-packages/ldpred/sum_stats_parsers.py", line 244, in parse_sum_stats_custom
+    with opener(filename) as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/exBTs_regenie_phenoCol1_SPA_CADComp.regenie.for_ldpred'

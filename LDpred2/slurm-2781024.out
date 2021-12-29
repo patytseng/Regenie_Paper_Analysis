@@ -1,0 +1,7 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper
+Loading required package: bigstatsr
+501,536 variants to be matched.
+2,288 ambiguous SNPs have been removed.
+37,621 variants have been matched; 0 were flipped and 37,621 were reversed.
+Error: Not enough variants have been matched.
+Execution halted

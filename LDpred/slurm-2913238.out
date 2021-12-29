@@ -1,0 +1,54 @@
+/gpfs/home/ptseng/Torkamani_Projects/20210712_Analysis-RegeniePaper/LDpred
+
+=============================== [96mLDpred v. 1.0.10[0m ===============================
+
+Calculating LD information w. radius 250
+Storing LD information to compressed pickle file
+Applying LDpred with LD radius: 250
+607762 SNP effects were found
+Calculating LDpred-inf weights
+Starting LDpred gibbs with f=0.0300
+Sum of squared updated effects estimates seems too large: 0.0970
+This suggests that the Gibbs sampler did not convergence.
+4.55%Sum of squared updated effects estimates seems too large: 0.1305
+This suggests that the Gibbs sampler did not convergence.
+9.09%Sum of squared updated effects estimates seems too large: 0.0873
+This suggests that the Gibbs sampler did not convergence.
+13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.4661
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%Sum of squared updated effects estimates seems too large: 0.1796
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 0.1236
+This suggests that the Gibbs sampler did not convergence.
+50.00%Sum of squared updated effects estimates seems too large: 0.0861
+This suggests that the Gibbs sampler did not convergence.
+54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0350
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.3335
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%Sum of squared updated effects estimates seems too large: 0.1085
+This suggests that the Gibbs sampler did not convergence.
+40.91%45.45%Sum of squared updated effects estimates seems too large: 0.0946
+This suggests that the Gibbs sampler did not convergence.
+50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0400
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.2215
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0450
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1797
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0500
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1850
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0550
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1462
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+Starting LDpred gibbs with f=0.0600
+4.55%9.09%13.64%18.18%22.73%Sum of squared updated effects estimates seems too large: 0.1378
+This suggests that the Gibbs sampler did not convergence.
+27.27%31.82%36.36%40.91%45.45%50.00%54.55%59.09%63.64%68.18%72.73%77.27%81.82%86.36%90.91%95.45%100.00%100.00%
+slurmstepd: error: *** JOB 2913238 ON nodeb04134 CANCELLED AT 2021-08-21T16:37:43 DUE TO TIME LIMIT ***
