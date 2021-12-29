@@ -12,4 +12,6 @@ module load git
 pwd
 
 # commands start
+find ./* -size -4M -type f -print0 | xargs -0 git add
+git commit -m update_20211228_2
 git push -u origin main
